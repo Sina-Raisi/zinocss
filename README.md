@@ -1,57 +1,58 @@
-🌟 ZinoCSS ZinoCSS is a lightweight, utility-first CSS framework designed to accelerate web development by providing a clean, simple, and modern set of predefined classes for layout, typography, spacing, colors, and more.
 
-📦 Installation Using CDN Include the latest ZinoCSS from jsDelivr CDN:
+Zino.css
 
-Using npm (Coming Soon) npm install zinocss ⚙️ Usage Add the stylesheet to your HTML: Then apply classes directly in your markup:
-Primary Button
+Zino.css is a lightweight, utility-first CSS framework designed to accelerate web development by providing a clean, simple, and modern set of predefined classes for layout, typography, spacing, colors, and more.
 
-Success message box
-🧱 Features Utility-first CSS classes for fast UI development
+Installation
+Using npm
+npm install @sina-raisi/zino.css
+Using CDN
+You can also use Zino.css directly via CDN:
 
-Responsive design support with breakpoints (sm:, md:, lg:, xl:)
 
-Extensive color palette and typography scale
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sina-Raisi/zinocss@main/Zino.css" />
+Usage
+Import the CSS file in your project:
 
-Spacing utilities (margin, padding)
+@import "~@sina-raisi/zino.css";
+Or include it in your HTML:
 
-Flexbox and grid layout helpers
+<link rel="stylesheet" href="zino.css" />
+Then use utility classes in your HTML:
 
-Buttons, forms, shadows, borders, and transitions
+<button class="btn btn-primary">Primary Button</button>
+<div class="p-4 bg-success text-white rounded shadow-md">
+  Success message box
+</div>
+Features
+Utility-first CSS classes for rapid UI development
 
-Dark mode ready styles
+Responsive design with breakpoint prefixes (sm:, md:, lg:, xl:)
 
-No dependencies, no JavaScript required
+Extensive color palette and typography utilities
 
-📁 File Structure /project-root ├── zino.css # Core CSS framework file ├── example.html # Example page demonstrating usage └── README.md # Documentation file (this)
+Spacing, layout, borders, shadows, buttons, and more
 
-🧪 Example
+Dark mode support ready
 
-Welcome to ZinoCSS!
-Click Me
-Check out the full demo in example.html.
+No JavaScript dependency
 
-🙋 Why Choose ZinoCSS? Clean, minimal, and easy to customize
+File Structure
+/project-root
+├── Zino.css          # Core CSS framework file
+├── example.html      # Example usage page
+└── README.md         # This file
+Example
 
-No build tools required
+<div class="p-5 bg-primary text-white rounded-lg shadow-lg text-center">
+  Welcome to Zino.css!
+</div>
+<button class="btn btn-outline">Click Me</button>
+See full demo in example.html.
 
-Small file size for fast loading
+Author
+Created by Fardex
+GitHub: https://github.com/Sina-Raisi
 
-Designed for rapid prototyping and production-ready projects
-
-🚀 Roadmap Core utilities
-
-Responsive breakpoints
-
-Advanced components (modals, dropdowns, etc.)
-
-Official npm package
-
-Documentation website
-
-Sass/LESS versions
-
-🧑‍💻 Author Created by Sina raisi GitHub: https://github.com/Sina-raisi
-
-📃 License MIT License. Feel free to use, modify, and distribute.
-
-If you want help publishing on GitHub, CDN, or npm, just ask!
+License
+MIT License — Free to use, modify, and distribute.
