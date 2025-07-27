@@ -6,10 +6,7 @@ ZinoCSS is a lightweight, utility-first CSS framework designed to accelerate web
 Using CDN
 Include the latest ZinoCSS from jsDelivr CDN:
 
-html
-Copy
-Edit
-<link rel="stylesheet" href="https://github.com/Sina-Raisi/zinocss/blob/main/Zino.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sina-Raisi/zinocss@main/Zino.css" />
 Using npm (Coming Soon)
 npm install zinocss
 ⚙️ Usage
