@@ -1,30 +1,12 @@
+🌟 ZinoCSS ZinoCSS is a lightweight, utility-first CSS framework designed to accelerate web development by providing a clean, simple, and modern set of predefined classes for layout, typography, spacing, colors, and more.
 
-🌟 ZinoCSS
-ZinoCSS is a lightweight, utility-first CSS framework designed to accelerate web development by providing a clean, simple, and modern set of predefined classes for layout, typography, spacing, colors, and more.
+📦 Installation Using CDN Include the latest ZinoCSS from jsDelivr CDN:
 
-📦 Installation
-Using CDN
-Include the latest ZinoCSS from jsDelivr CDN:
+Using npm (Coming Soon) npm install zinocss ⚙️ Usage Add the stylesheet to your HTML: Then apply classes directly in your markup:
+Primary Button
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Sina-Raisi/zinocss@main/Zino.css" />
-Using npm (Coming Soon)
-npm install zinocss
-⚙️ Usage
-Add the stylesheet to your HTML:
-
-
-<link rel="stylesheet" href="zino.css" />
-Then apply classes directly in your markup:
-
-
-<button class="btn btn-primary">Primary Button</button>
-<div class="p-4 bg-success text-white rounded shadow-md">
-  Success message box
-</div>
-
-
-🧱 Features
-Utility-first CSS classes for fast UI development
+Success message box
+🧱 Features Utility-first CSS classes for fast UI development
 
 Responsive design support with breakpoints (sm:, md:, lg:, xl:)
 
@@ -40,23 +22,15 @@ Dark mode ready styles
 
 No dependencies, no JavaScript required
 
-📁 File Structure
-/project-root
-├── zino.css # Core CSS framework file
-├── example.html # Example page demonstrating usage
-└── README.md # Documentation file (this)
+📁 File Structure /project-root ├── zino.css # Core CSS framework file ├── example.html # Example page demonstrating usage └── README.md # Documentation file (this)
 
 🧪 Example
 
-<div class="p-5 bg-primary text-white rounded-lg shadow-lg text-center">
-  Welcome to ZinoCSS!
-</div>
-<button class="btn btn-outline">Click Me</button>
-
+Welcome to ZinoCSS!
+Click Me
 Check out the full demo in example.html.
 
-🙋 Why Choose ZinoCSS?
-Clean, minimal, and easy to customize
+🙋 Why Choose ZinoCSS? Clean, minimal, and easy to customize
 
 No build tools required
 
@@ -64,24 +38,20 @@ Small file size for fast loading
 
 Designed for rapid prototyping and production-ready projects
 
-🚀 Roadmap
- Core utilities
+🚀 Roadmap Core utilities
 
- Responsive breakpoints
+Responsive breakpoints
 
- Advanced components (modals, dropdowns, etc.)
+Advanced components (modals, dropdowns, etc.)
 
- Official npm package
+Official npm package
 
- Documentation website
+Documentation website
 
- Sass/LESS versions
+Sass/LESS versions
 
-🧑‍💻 Author
-Created by Sina raisi
-GitHub: https://github.com/Sina-raisi
+🧑‍💻 Author Created by Sina raisi GitHub: https://github.com/Sina-raisi
 
-📃 License
-MIT License. Feel free to use, modify, and distribute.
+📃 License MIT License. Feel free to use, modify, and distribute.
 
 If you want help publishing on GitHub, CDN, or npm, just ask!

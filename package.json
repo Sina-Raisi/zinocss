@@ -1,0 +1,13 @@
+{
+  "name": "zinocss",
+  "version": "1.0.0",
+  "description": "A lightweight, utility-first CSS framework.",
+  "main": "Zino.css",
+  "keywords": ["css", "framework", "utility-first", "zinocss"],
+  "author": "Sina-Raisi",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sina-Raisi/zinocss.git"
+  }
+}
