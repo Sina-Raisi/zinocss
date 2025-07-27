@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head> 
+<meta charset="UTF-8" /> 
+<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+<title>Zinocss usage example</title> 
+<link rel="stylesheet" href="zino.css" /> 
+<style> 
+body { 
+padding: 2rem; 
+background: var(--color-light); 
+} 
+section { 
+margin-bottom: 3rem; 
+} 
+h2 { 
+margin-bottom: 1rem; 
+border-bottom: 2px solid var(--color-primary); 
+padding-bottom: 0.5rem; 
+font-weight: var(--font-weight-bold); 
+color: var(--color-primary); 
+} 
+.btn + .btn { 
+margin-left: 1rem; 
+} 
+label { 
+display: block; 
+margin-bottom: 0.3rem; 
+} 
+input, select, textarea, button { 
+max-width: 300px; 
+margin-bottom: 1rem; 
+} 
+</style>
+</head>
+<body> 
+
+<h1 class="text-3xl font-bold text-center mb-5">Sample page Zinocss</h1> 
+
+<!-- Typography --> 
+<section> 
+<h2>Typography</h2> 
+<p class="text-xs">Small sized text (xs)</p> 
+<p class="text-sm">Text with small size (sm)</p> 
+<p class="text-md">Medium size text (md)</p> 
+<p class="text-lg">Large size text (lg)</p> 
+<p class="text-xl">Large text (xl)</p> 
+<p class="text-2xl font-semibold text-primary">Larger text with primary color and semibold weight</p> 
+<p class="text-3xl font-bold text-secondary">Very large text with secondary and bold text</p> 
+<p class="text-lg text-italic">Italic text</p> 
+<p class="text-md text-uppercase">Large text with uppercase letters</p> 
+<p class="text-md text-lowercase">Small text with small letters</p> 
+<p class="text-md text-capitalize">Text with capitalization</p> 
+<p class="truncate" style="max-width: 200px;">Very long text that must be truncated and displayed with three dots</p> 
+</section> 
+
+<!-- Colors --> 
+<section> 
+<h2>Her colors</h2> 
+<div class="p-3 bg-primary text-white mb-2">Primary ground</div> 
+<div class="p-3 bg-secondary text-white mb-2">Secondary field</div> 
+<div class="p-3 bg-success text-white mb-2">Success</div> 
+<div class="p-3 bg-danger text-white mb-2">Error</div> 
+<div class="p-3 bg-warning text-dark mb-2">Warning</div> 
+<div class="p-3 bg-info text-white mb-2">Info</div> 
+<div class="p-3 bg-light text-dark mb-2 border border-gray-400">light</div> 
+<div class="p-3 bg-dark text-white mb-2">dark</div> 
+</section> 
+
+<!-- Buttons --> 
+<section> 
+<h2>Dakmah</h2> 
+<button class="btn btn-primary">Primary button</button> 
+<button class="btn btn-secondary">Secondary button</button> 
+<button class="btn btn-success">Success button</button> 
+<button class="btn btn-danger">danger</button> 
+<button class="btn btn-warning">Warning button</button> 
+<button class="btn btn-info">Info button</button> 
+<button class="btn btn-outline">Dumma without background</button> 
+</section> 
+
+<!-- Forms --> 
+<section> 
+<h2>Format it</h2> 
+<form> 
+<label for="name">NAME:</label> 
+<input type="text" id="name" placeholder="Enter your name" /> 
+
+<label for="email">Email:</label> 
+<input type="email" id="email" placeholder="example@example.com" /> 
+
+<label for="message">Message:</label> 
+<textarea id="message" placeholder="Enter your Message"></textarea> 
+
+<label class="form-check"> 
+<input type="checkbox" class="form-check-input" /> 
+<span class="form-check-label">Accept terms</span> 
+</label> 
+
+<button type="submit" class="btn btn-primary">Submit</button> 
+</form> 
+</section><!-- Layout (Flex) --> 
+<section> 
+<h2>Chidman (flex)</h2> 
+<div class="d-flex flex-row gap-3 p-3 bg-light border rounded-md"> 
+<div class="p-3 bg-primary text-white flex-grow">Flex item 1 (grow)</div> 
+<div class="p-3 bg-secondary text-white">Flex Item 2</div> 
+<div class="p-3 bg-success text-white">Flex Item 3</div> 
+</div> 
+</section> 
+
+<!-- Spacing --> 
+<section> 
+<h2>Spaces (margin and padding)</h2> 
+<div class="p-5 bg-dark text-white mb-4">Peding 5</div> 
+<div class="m-5 bg-primary text-white">margin 5</div> 
+</section> 
+
+<!-- Shadows --> 
+<section> 
+<h2>His shadow</h2> 
+<div class="p-4 bg-light shadow-sm mb-2">small shadow</div> 
+<div class="p-4 bg-light shadow-md mb-2">Medium shadow</div> 
+<div class="p-4 bg-light shadow-lg mb-2">big shadow</div> 
+<div class="p-4 bg-light shadow-xl mb-2">Big shadow</div> 
+</section> 
+
+<!-- Transitions & Animations --> 
+<section> 
+<h2>Animations and transitions</h2> 
+<button class="btn btn-primary transition-normal animate-fade-in">fade in</button> 
+<button class="btn btn-secondary transition-fast animate-spin">Fast spin</button> 
+</section> 
+
+<!-- Responsive --> 
+<section> 
+<h2> Responsive (page size test)</h2> 
+<div class="d-block sm:d-flex md:justify-between lg:gap-5 bg-warning p-3 rounded-md"> 
+<div class="bg-primary text-white p-3 m-1 flex-grow">small screen</div> 
+<div class="bg-success text-white p-3 m-1 flex-grow">Medium screen</div> 
+<div class="bg-info text-white p-3 m-1 flex-grow">large screen</div> 
+</div> 
+</section> 
+
+
+<p class="text-2xl text-center text-danger">Attention! This was a small part of the style and features of the framework. To see all the features, go to the main file or the documents.</p>
+</body>
+</html>
